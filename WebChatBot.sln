@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebChatBot", "WebChatBot\WebChatBot.csproj", "{9B3033DE-694F-4203-92EF-7F5D62A4222C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{0077E9AD-375F-4C4D-92BB-9DBF538EE943}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B3033DE-694F-4203-92EF-7F5D62A4222C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3033DE-694F-4203-92EF-7F5D62A4222C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3033DE-694F-4203-92EF-7F5D62A4222C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3033DE-694F-4203-92EF-7F5D62A4222C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0077E9AD-375F-4C4D-92BB-9DBF538EE943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0077E9AD-375F-4C4D-92BB-9DBF538EE943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0077E9AD-375F-4C4D-92BB-9DBF538EE943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0077E9AD-375F-4C4D-92BB-9DBF538EE943}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {914206B3-C48C-4F84-A40E-5B80AF57EC1E}
+	EndGlobalSection
+EndGlobal

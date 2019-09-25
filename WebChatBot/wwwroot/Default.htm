@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
+          integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>WebChat Bot</title>
+    <style>
+        #webchat {
+            width: 80%;
+            height: 500px;
+            border-width: thin;
+            border-style: solid;
+            border-color: #000000;
+            overflow: scroll;
+            margin: 0 auto;
+        }
+
+        .header {
+            margin-top: 2%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <div class="row justify-content-center header">
+                            <h2>Web ChatBot</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <div id="webchat" role="main"></div>
+                        <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+                        <script>
+                            const styleOptions = {
+                                        botAvatarImage: 'https://www.iconbunny.com/icons/media/catalog/product/4/2/4265.9-robot-ii-icon-iconbunny.jpg',
+                                        botAvatarInitials: 'CN'
+                                    }
+                            window.WebChat.renderWebChat(
+                                {
+                                    directLine: window.WebChat.createDirectLine({
+                                        token: '7sXV2qm1D1Q._iUy9snpQ_PWTCLSd6-S_yqGOly9yqPQ3D4VRgWyjwI'
+                                    }),
+                                    styleOptions
+                                },
+                                document.getElementById('webchat')
+                            );
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
